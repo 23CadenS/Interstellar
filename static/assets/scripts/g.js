@@ -1,13 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
-      name: '! Request A Game',
-      link: 'https://forms.gle/94fJ9yAXQCgaXTrz6',
-      image: '/assets/media/icons/request.webp',
-      categories: ['all'],
-      error: false,
-    },
-    {
       name: 'Amazon Luna',
       link: 'https://luna.amazon.com/',
       image: '/assets/media/icons/amazon-luna.png',
