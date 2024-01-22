@@ -21,7 +21,7 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
             }">
         `)
 
-    location.replace(localStorage.getItem('panicLink') || 'https://classroom.google.com')
+    location.replace(localStorage.getItem('panicLink') || 'https://misd.instructure.com')
   }
 }
 
