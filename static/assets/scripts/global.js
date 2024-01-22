@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 var eventKey = localStorage.getItem('eventKey') || '`'
-var panicLink = localStorage.getItem('panicLink') || 'https://classroom.google.com/'
+var panicLink = localStorage.getItem('panicLink') || 'https://misd.instructure.com'
 
 document.addEventListener('keydown', function (event) {
   if (event.key === eventKey) {
